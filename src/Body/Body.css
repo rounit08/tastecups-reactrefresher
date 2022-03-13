@@ -1,0 +1,104 @@
+.body {
+  background-image: url(../soup_PNG79.png);
+}
+
+.bodynav {
+  background-color: rgb(5, 146, 36);
+  align-items: center;
+  border: 2px solid;
+  display: flex;
+  align-self: center;
+  align-self: center;
+  align-content: center;
+}
+
+#btn1 {
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  background-color: rgb(233, 85, 80);
+  border: 0px;
+}
+
+#btn1:hover {
+  color: rgb(233, 85, 80);
+  background-color: antiquewhite;
+  transform: scale(1.5);
+}
+
+#btn2:hover {
+  color: rgb(134, 132, 0);
+  background-color: antiquewhite;
+  transform: scale(1.5);
+}
+
+#btn3:hover {
+  color: rgb(84, 226, 41);
+  background-color: antiquewhite;
+  transform: scale(1.5);
+}
+
+#btn4:hover {
+  color: brown;
+  background-color: antiquewhite;
+  transform: scale(1.5);
+}
+
+#btn5:hover {
+  color: rgb(194, 197, 13);
+  background-color: antiquewhite;
+  transform: scale(1.5);
+}
+
+#btn2 {
+  cursor: pointer;
+  background-color: rgb(243, 239, 12);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  width: 130px;
+  height: 50px;
+  border: 0px;
+}
+#btn3 {
+  border: 0px;
+  background-color: rgb(84, 226, 41);
+
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  width: 130px;
+  height: 50px;
+}
+#btn4 {
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  background-color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  border: 0px;
+}
+#btn5 {
+  width: 130px;
+  height: 50px;
+  cursor: pointer;
+  background-color: rgb(194, 197, 13);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  border: 0px;
+}
+
+@media screen and (min-width: 1024px) {
+  .bodynav {
+    margin-left: 600px;
+    margin-right: 700px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .bodynav {
+    margin-left: 0px;
+  }
+}

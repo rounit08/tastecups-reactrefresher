@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 33, 50);
+}
+
+.navbarText {
+  color: rgb(201, 212, 100);
+}
+
+.navbarIcon {
+  color: rgb(17, 97, 3);
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    align-items: center;
+  }
+  .navbarText {
+    margin-left: 0px;
+  }
+
+  .navbarIcon {
+    margin-left: 90px;
+  }
+}
